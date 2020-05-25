@@ -1,0 +1,11 @@
+.container {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 200px;
+  padding: 20px 5px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #ef392c;
+  color: #ffffff;
+}

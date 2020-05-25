@@ -1,0 +1,13 @@
+.container {
+  margin-bottom: 20px;
+  width: 90%;
+  text-align: center;
+}
+
+.searchField {
+  width: 50%;
+  font-size: 25px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 5px;
+}

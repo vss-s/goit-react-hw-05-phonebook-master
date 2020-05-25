@@ -1,0 +1,57 @@
+.container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 0;
+  box-shadow: 0 0 2px;
+  border-radius: 5px;
+}
+
+.inputLabel,
+.inputField {
+  margin-bottom: 10px;
+}
+
+.inputLabel {
+  font-size: 20px;
+}
+
+.inputField {
+  width: 50%;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  font-size: 20px;
+  box-shadow: 0 0 3px;
+  text-align: center;
+}
+
+.inputFieldError {
+  composes: inputField;
+  border: 2px solid red;
+}
+
+.invalidMessage {
+  background-color: red;
+  text-align: center;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 5px;
+  min-width: 150px;
+  height: 22px;
+}
+
+.Btn {
+  background-color: #3645ab;
+  font-size: 20px;
+  color: #ffffff;
+  width: 50%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: box-shadow 0.3s linear;
+}
+
+.Btn:hover {
+  box-shadow: 0 0 10px #3645ab;
+}

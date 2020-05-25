@@ -1,0 +1,16 @@
+.container {
+  padding-top: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+  color: #3645ab;
+  font-weight: 900;
+}
